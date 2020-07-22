@@ -6,12 +6,6 @@
 #define ADDR_ENC_RIGHT 0x06
 
 #define ADDR_ROMI 0x20
-//
-//struct Data
-//{
-//  int16_t speedLeft, speedRight;     //motor efforts
-//  int16_t encLeft, encRight; //motor speeds
-//};
 
 void SetEfforts(int16_t effortLeft, int16_t effortRight)
 {
